@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM docker.io/library/node:26.12.1-slim
 
 RUN mkdir -p /usr/src/node-app && chown -R node:node /usr/src/node-app
 
